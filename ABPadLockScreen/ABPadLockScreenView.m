@@ -546,7 +546,7 @@
     CGRect newFrame = CGRectMake(roundedView.frame.origin.x, roundedView.frame.origin.y, newSize, newSize);
     roundedView.frame = newFrame;
     roundedView.clipsToBounds = YES;
-    roundedView.layer.cornerRadius = newSize / 2.0;
+    roundedView.layer.cornerRadius = newSize / 1.5;
 }
 
 @end
